@@ -1,0 +1,42 @@
+#content {
+  border: 1px #000;
+  color: green;
+}
+#content, h2{
+  color: red;
+}
+.intro {
+ color: green;
+ font-weight: bold;
+}
+ p {
+  color: green;
+
+}
+
+ .intro, li {
+  color: black;
+  font-weight: bold;
+}
+.intro, a{
+  color: black;
+
+}
+
+h2 {
+	color: red;
+	font-family: serif;
+}
+p {
+	color: green;
+}
+a {
+	color: purple;
+}
+.intro {
+	font-weight: bold;
+}
+
+li > a {
+	color: black;
+}

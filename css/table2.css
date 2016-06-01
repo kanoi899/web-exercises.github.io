@@ -1,0 +1,27 @@
+body{
+  text-align:left;
+}
+table{
+  border: 2px;
+  border-style:inset;
+  width: 400px;
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border-color: gray;
+
+}
+table thead {
+  border: 2px;
+}
+table tr:nth-child(odd) {
+    background: #fff;
+}
+
+table tr:nth-child(even) {
+    background: #ff0;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
