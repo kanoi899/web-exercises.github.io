@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+img {
+	width: 400px; 
+	height: 400px; 
+	-moz-border-radius: 120px; 
+	-webkit-border-radius: 120px; 
+	border-radius: 120px;
+	padding-top:10px;
+	}
+.circle {
+	width: 420px; 
+	height: 420px;
+	background: #000;
+	-moz-border-radius: 80px; 
+	-webkit-border-radius: 80px; 
+	border-radius: 80px;
+	text-align:center;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+	
+	}
